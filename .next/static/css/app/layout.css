@@ -1470,6 +1470,12 @@ video {
 .border-white\/20 {
   border-color: rgb(255 255 255 / 0.2);
 }
+.border-border {
+  border-color: var(--border);
+}
+.border-yellow-400\/50 {
+  border-color: rgb(250 204 21 / 0.5);
+}
 .border-l-transparent {
   border-left-color: transparent;
 }
@@ -1561,6 +1567,14 @@ video {
 }
 .bg-white\/10 {
   background-color: rgb(255 255 255 / 0.1);
+}
+.bg-green-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 253 244 / var(--tw-bg-opacity));
+}
+.bg-yellow-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 252 232 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\/assets\/fondo-hero\.avif\)\] {
   background-image: url(/assets/fondo-hero.avif);
@@ -2089,6 +2103,10 @@ video {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+.text-yellow-700 {
+  --tw-text-opacity: 1;
+  color: rgb(161 98 7 / var(--tw-text-opacity));
 }
 .underline-offset-4 {
   text-underline-offset: 4px;
@@ -3587,6 +3605,20 @@ html {
 
 .\[\&\>svg\]\:text-muted-foreground>svg {
   color: var(--muted-foreground);
+}
+
+.\[\&\>svg\]\:text-destructive>svg {
+  color: var(--destructive);
+}
+
+.\[\&\>svg\]\:text-green-600>svg {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.\[\&\>svg\]\:text-yellow-700>svg {
+  --tw-text-opacity: 1;
+  color: rgb(161 98 7 / var(--tw-text-opacity));
 }
 
 .\[\&\>tr\]\:last\:border-b-0:last-child>tr {
