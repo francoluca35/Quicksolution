@@ -157,7 +157,7 @@ export function Pricing() {
                   whileTap={{ scale: 0.98 }}
                   className={`w-full py-4 rounded-xl transition-all ${
                     plan.popular
-                      ? 'bg-gradient-to-r from-orange-500 to-amber-600 text-white shadow-lg shadow-green-500/30'
+                      ? 'bg-gradient-to-r from-green-500 to-green-600 text-white shadow-lg shadow-green-500/30'
                       : 'bg-slate-800 text-white hover:bg-slate-700 border border-slate-700'
                   }`}
                 >
