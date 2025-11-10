@@ -6,25 +6,25 @@ import Image from 'next/image';
 
 const testimonials = [
   {
-    name: 'María González',
-    role: 'Dueña - La Esquina Gourmet',
+    name: 'Neiser Garcia',
+    role: 'Dueña - Restaurantes PerúMar',
     content: 'QuickSolution transformó completamente nuestro restaurante. Antes perdíamos comandas y el control del stock era un caos. Ahora todo fluye perfectamente.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop'
+    image: '/assets/perumar.png'
   },
   {
     name: 'Carlos Méndez',
-    role: 'Gerente - Sabor Urbano',
-    content: 'La integración con delivery y takeaway nos permitió duplicar nuestras ventas. El sistema de QR para comensales es increíble, los clientes lo aman.',
+    role: 'Dueño - Restaurante Las Cañas',
+    content: 'La integración con delivery y takeaway nos permitió duplicar nuestras ventas. El sistema de QR para comensales es increíble, logramos aumentar la efectividad de nuestro trabajo.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop'
+    image: '/assets/lascanas.png'
   },
   {
-    name: 'Ana Rodríguez',
-    role: 'Chef & Propietaria - Fusión 21',
-    content: 'Las comandas digitales en cocina son un game-changer. Ya no hay errores y los tiempos de espera se redujeron un 40%. Súper recomendado.',
+    name: 'Maria Rodríguez',
+    role: 'Dueña - El Celta (cordoba)',
+    content: 'Las comandas digitales nos permitieron aumentar la rapidez en la toma de pedidos. Ya no hay errores y los tiempos de espera se redujeron un 40%. Súper recomendado.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop'
+    image: '/assets/celta.jpg'
   }
 ];
 
